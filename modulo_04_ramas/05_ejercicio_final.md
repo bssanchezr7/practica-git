@@ -376,13 +376,9 @@ Has completado el Módulo 4: Ramas. Ahora sabes:
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Próximos pasos sugeridos:
+### Siguiente módulo:
 
-1. **Remotos** (`git push`, `git pull`, `git fetch`) — Colabora con otros
-   y sube tu trabajo a GitHub/GitLab.
-2. **Rebase** (`git rebase`) — Una alternativa al merge para mantener un
-   historial lineal.
-3. **Stash** (`git stash`) — Guarda cambios temporalmente sin commitear.
+Continúa con el **Módulo 5: Trabajo con remotos** → `../modulo_05_remotos/01_git_remote.md`
 
 ---
 
