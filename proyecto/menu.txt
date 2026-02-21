@@ -1,0 +1,17 @@
+# Menú — Restaurante "El Buen Código"
+
+## Entrantes
+- Sopa del día — 6.50€
+- Croquetas caseras (8 uds.) — 7.50€
+- Patatas bravas — 5.50€
+
+## Platos principales
+- Spaghetti carbonara — 12.00€
+- Pizza margarita — 10.50€
+- Ensalada mixta — 8.00€
+
+## Bebidas
+- Agua mineral — 2.50€
+- Refresco — 3.00€
+- Copa de vino de la casa — 4.00€
+- Cerveza artesanal — 3.50€

@@ -1,0 +1,25 @@
+# Inventario — Restaurante "El Buen Código"
+
+## Productos básicos
+- Harina: 25 kg
+- Aceite de oliva: 10 litros
+- Tomate triturado: 15 latas
+- Sal: 5 kg
+- Pimienta: 500 g
+
+## Lácteos
+- Queso mozzarella: 8 kg
+- Nata para cocinar: 6 litros
+- Mantequilla: 3 kg
+
+## Verduras
+- Tomates frescos: 10 kg
+- Lechuga: 15 unidades
+- Cebollas: 8 kg
+- Patatas: 20 kg
+
+## Bebidas
+- Agua mineral: 48 botellas
+- Refrescos variados: 36 latas
+- Vino de la casa: 12 botellas
+- Cerveza artesanal: 24 botellas
