@@ -351,7 +351,7 @@ tengan el contenido esperado y sin marcadores de conflicto.
 
 ## 🏆 ¡Felicidades!
 
-Has completado el Módulo 2: Ramas. Ahora sabes:
+Has completado el Módulo 4: Ramas. Ahora sabes:
 
 ```
 ┌───────────────────────────────────────────────────────────┐

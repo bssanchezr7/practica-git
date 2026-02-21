@@ -108,7 +108,7 @@ No hay reglas estrictas, pero estas convenciones son muy comunes:
 
 ## 💻 Práctica
 
-> **Prerrequisito**: Debes haber completado el Módulo 1 (lecciones 01-06)
+> **Prerrequisito**: Debes haber completado el Módulo 3 (lecciones 01-06)
 > o al menos tener algunos commits en tu historial. Verifica con
 > `git log --oneline`.
 

@@ -258,7 +258,7 @@ Si llegaste hasta aquí, ya dominas el flujo básico de trabajo en Git:
 
 ### Próximo módulo:
 
-Continúa con el **Módulo 2: Ramas** → `../modulo_02_ramas/01_git_branch.md`
+Continúa con el **Módulo 4: Ramas** → `../modulo_04_ramas/01_git_branch.md`
 
 ---
 
