@@ -266,5 +266,5 @@ Pregúntate: "Si alguien lee mi historial, ¿entenderá qué hice y por qué?"
 
 ---
 
-> **Siguiente lección**: `lecciones/04_git_log.md` — Aprenderás a explorar
+> **Siguiente lección**: `04_git_log.md` — Aprenderás a explorar
 > el historial que acabas de crear.

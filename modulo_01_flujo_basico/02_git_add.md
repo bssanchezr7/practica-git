@@ -243,5 +243,5 @@ construir commits limpios que contengan cambios relacionados entre sí.
 
 ---
 
-> **Siguiente lección**: `lecciones/03_git_commit.md` — Es hora de guardar
+> **Siguiente lección**: `03_git_commit.md` — Es hora de guardar
 > tu trabajo en el historial permanente.

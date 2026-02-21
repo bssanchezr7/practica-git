@@ -212,5 +212,5 @@ vuelve a mostrar solo los archivos originales como untracked.
 
 ---
 
-> **Siguiente lección**: `lecciones/02_git_add.md` — Aprenderás a preparar
+> **Siguiente lección**: `02_git_add.md` — Aprenderás a preparar
 > cambios con precisión quirúrgica.

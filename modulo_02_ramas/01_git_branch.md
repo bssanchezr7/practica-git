@@ -1,4 +1,4 @@
-# Lección 07: `git branch` — Crear, listar y eliminar ramas
+# Lección 01: `git branch` — Crear, listar y eliminar ramas
 
 ## 📖 Teoría
 
@@ -98,7 +98,7 @@ No hay reglas estrictas, pero estas convenciones son muy comunes:
 
 - `git branch nombre` **crea** la rama pero **NO te cambia a ella**.
   Seguirás en la rama donde estabas. Para cambiarte, necesitas
-  `git switch` (lección 08).
+  `git switch` (lección 02).
 - No puedes eliminar la rama en la que estás. Primero cámbiate a otra.
 - `git branch -d` es seguro: solo borra ramas ya mergeadas.
   `git branch -D` es la versión "estoy seguro, borra aunque no esté
@@ -292,5 +292,5 @@ borras.
 
 ---
 
-> **Siguiente lección**: `lecciones/08_git_switch.md` — Aprenderás a
+> **Siguiente lección**: `02_git_switch.md` — Aprenderás a
 > moverte entre ramas y a trabajar en cada una de forma independiente.

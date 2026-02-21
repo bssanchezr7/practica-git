@@ -256,11 +256,9 @@ Si llegaste hasta aquí, ya dominas el flujo básico de trabajo en Git:
 - ✅ Explorar el historial con múltiples formatos (`git log`)
 - ✅ Comparar versiones a cualquier nivel de detalle (`git diff`)
 
-### Próximos pasos sugeridos:
+### Próximo módulo:
 
-1. **Ramas** (`git branch`, `git switch`, `git merge`) — Trabaja en paralelo.
-2. **Remotos** (`git push`, `git pull`) — Colabora con otros.
-3. **Deshacer** (`git restore`, `git revert`) — Corrige errores.
+Continúa con el **Módulo 2: Ramas** → `../modulo_02_ramas/01_git_branch.md`
 
 ---
 

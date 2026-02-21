@@ -304,5 +304,5 @@ más detalle, añade `--stat` o `-p`.
 
 ---
 
-> **Siguiente lección**: `lecciones/05_git_diff.md` — Aprenderás a ver
+> **Siguiente lección**: `05_git_diff.md` — Aprenderás a ver
 > exactamente qué cambió entre versiones.

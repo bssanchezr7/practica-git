@@ -1,4 +1,4 @@
-# Lección 10: Resolver conflictos de merge
+# Lección 04: Resolver conflictos de merge
 
 ## 📖 Teoría
 
@@ -425,5 +425,5 @@ combinar el contenido de ambas ramas.
 
 ---
 
-> **Siguiente lección**: `lecciones/11_ejercicio_final_ramas.md` — Un
+> **Siguiente lección**: `05_ejercicio_final.md` — Un
 > ejercicio integrador que pone a prueba todo lo aprendido sobre ramas.

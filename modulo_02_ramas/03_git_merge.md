@@ -1,4 +1,4 @@
-# Lección 09: `git merge` — Unir ramas
+# Lección 03: `git merge` — Unir ramas
 
 ## 📖 Teoría
 
@@ -83,7 +83,7 @@ un nuevo **commit de merge**.
 
 Se produce cuando ambas ramas modificaron las **mismas líneas** del
 **mismo archivo**. Git no puede decidir cuál versión mantener y te
-pide que lo resuelvas tú. (Esto lo veremos en detalle en la lección 10.)
+pide que lo resuelvas tú. (Esto lo veremos en detalle en la lección 04.)
 
 ### El commit de merge
 
@@ -156,7 +156,7 @@ git branch -d feature/carta-postres   # Limpia la rama
 
 ## 💻 Práctica
 
-> **Prerrequisito**: Debes haber completado la lección 08 y tener las ramas
+> **Prerrequisito**: Debes haber completado la lección 02 y tener las ramas
 > `feature/carta-postres` (con un commit de postres) y `feature/menu-vegano`
 > (con un commit de opciones veganas).
 
@@ -400,5 +400,5 @@ antes de mergear. Y limpia las ramas que ya no necesites.
 
 ---
 
-> **Siguiente lección**: `lecciones/10_conflictos.md` — Aprenderás a resolver
+> **Siguiente lección**: `04_conflictos.md` — Aprenderás a resolver
 > el temido "CONFLICT" sin miedo.

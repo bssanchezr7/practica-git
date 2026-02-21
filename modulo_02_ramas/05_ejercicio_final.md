@@ -1,4 +1,4 @@
-# Lección 11: Ejercicio Final Integrador — Ramas
+# Lección 05: Ejercicio Final Integrador — Ramas
 
 ## Objetivo
 
@@ -212,7 +212,7 @@ que combine los cambios automáticamente ya que tocan diferentes partes
 del archivo, o puede generar un conflicto si ambas ramas modificaron las
 mismas líneas.
 
-**Si hay conflicto**: Resuélvelo usando lo aprendido en la lección 10:
+**Si hay conflicto**: Resuélvelo usando lo aprendido en la lección 04:
 1. `git status` para identificar archivos.
 2. Abre el archivo, decide qué mantener, elimina marcadores.
 3. `git add` + `git commit`.

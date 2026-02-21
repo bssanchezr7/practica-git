@@ -319,5 +319,5 @@ para verificar que vas a guardar exactamente lo que quieres.
 
 ---
 
-> **Siguiente lección**: `lecciones/06_ejercicio_final.md` — Un ejercicio
+> **Siguiente lección**: `06_ejercicio_final.md` — Un ejercicio
 > integrador que combina todo lo aprendido.

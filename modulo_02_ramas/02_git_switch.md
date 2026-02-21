@@ -1,4 +1,4 @@
-# Lección 08: `git switch` — Cambiar de rama
+# Lección 02: `git switch` — Cambiar de rama
 
 ## 📖 Teoría
 
@@ -104,7 +104,7 @@ Pero en un solo paso. Crea la rama **y** te cambia a ella inmediatamente.
 
 ## 💻 Práctica
 
-> **Prerrequisito**: Debes haber completado la lección 07 y tener la rama
+> **Prerrequisito**: Debes haber completado la lección 01 y tener la rama
 > `feature/carta-postres` creada. Verifica con `git branch`.
 
 ### Ejercicio 1: Cambia a la rama de postres
@@ -332,5 +332,5 @@ git switch main
 
 ---
 
-> **Siguiente lección**: `lecciones/09_git_merge.md` — Aprenderás a unir
+> **Siguiente lección**: `03_git_merge.md` — Aprenderás a unir
 > el trabajo de diferentes ramas.
