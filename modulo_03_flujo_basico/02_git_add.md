@@ -4,9 +4,7 @@
 
 ### ¿Qué hace `git add`?
 
-`git add` mueve cambios desde el **Working Directory** al **Staging Area**.
-Es como poner cosas en una caja antes de enviarlas por correo: decides
-exactamente qué va dentro antes de cerrar y enviar (hacer commit).
+`git add` mueve cambios desde el **Working Directory** al **Staging Area**. Según [Pro Git (Capítulo 2.2)](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_staging_modified_files), este comando marca los cambios para ser incluidos en el próximo commit. Es como poner cosas en una caja antes de enviarlas por correo: decides exactamente qué va dentro antes de cerrar y enviar (hacer commit).
 
 ```
   Working Directory          Staging Area            Repository
@@ -69,10 +67,7 @@ git add -p archivo.txt
 
 ### ⚠️ Importante: `git add` captura una instantánea
 
-Cuando ejecutas `git add archivo.txt`, Git guarda el contenido del archivo
-**en ese preciso momento**. Si modificas el archivo DESPUÉS del `git add`,
-esos cambios nuevos NO estarán en el Staging Area. Tendrías que ejecutar
-`git add` otra vez.
+Cuando ejecutas `git add archivo.txt`, Git guarda el contenido del archivo **en ese preciso momento**. Git no añade archivos, sino **hunks** (trozos) de cambios específicos. Si modificas el archivo DESPUÉS del `git add`, esos cambios nuevos NO estarán en el Staging Area. Tendrías que ejecutar `git add` otra vez para capturar la nueva instantánea.
 
 ```
   1. Editas archivo.txt        → Working Directory cambia

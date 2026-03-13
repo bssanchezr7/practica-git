@@ -5,8 +5,7 @@
 ### El problema: tu repo local se queda atrás
 
 Mientras trabajas en tu copia local, otras personas (o tú mismo desde otra
-máquina) pueden pushear cambios al remoto. Tu repo local no se actualiza
-solo — necesitas pedirle explícitamente que traiga los cambios.
+máquina) pueden pushear cambios al remoto. Según [Pro Git (Capítulo 2.5)](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_fetching_and_pulling_your_remotes), tu repo local no se actualiza solo — necesitas pedirle explícitamente que traiga los cambios.
 
 ```
   Tu local:       C1 ── C2 ── C3         (te quedaste aquí)
@@ -127,6 +126,11 @@ Cuando tu rama local y el remoto han divergido:
 |--------|-----------|---------------|
 | `git pull` (merge) | Muestra la divergencia | Por defecto, más seguro |
 | `git pull --rebase` | Lineal, más limpio | Cuando quieres historial limpio |
+
+💡 **Configuración recomendada**: Muchos profesionales prefieren que `pull` haga rebase por defecto para evitar "commits de merge" innecesarios que ensucian el historial:
+```bash
+git config --global pull.rebase true
+```
 
 ### Ramas de seguimiento (tracking branches)
 

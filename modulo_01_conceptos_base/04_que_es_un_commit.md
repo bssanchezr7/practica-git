@@ -4,8 +4,7 @@
 
 ### Un commit es una instantánea
 
-Un commit **NO** es una lista de cambios (diff). Es una **foto completa**
-(snapshot) de todos los archivos de tu proyecto en un momento dado.
+Un commit **NO** es una lista de cambios (diff). Es una **foto completa** (snapshot) de todos los archivos de tu proyecto en un momento dado. Según [Pro Git (Capítulo 1.3): Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#_snapshots_not_differences), Git almacena sus datos más como una serie de fotos de un sistema de archivos en miniatura.
 
 **Analogía**: Piensa en los puntos de guardado de un videojuego. Cada commit
 captura el estado exacto del juego — posición del personaje, inventario,
@@ -50,11 +49,7 @@ Cada commit almacena:
 └─────────────────────────────────────────────────┘
 ```
 
-#### 1. Hash SHA-1
-
-Un identificador único de **40 caracteres hexadecimales**. Git lo calcula
-a partir del contenido del commit. Es imposible que dos commits diferentes
-tengan el mismo hash.
+Un identificador único de **40 caracteres hexadecimales**. Git lo calcula a partir del contenido del commit. Tradicionalmente, Git usa el algoritmo **SHA-1**, pero está en proceso de transición hacia **SHA-256** para mayor seguridad, aunque SHA-1 sigue siendo el estándar actual (más información en la [documentación oficial](https://git-scm.com/docs/hash-function-transition)). Es imposible que dos commits diferentes tengan el mismo hash.
 
 ```
 a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0

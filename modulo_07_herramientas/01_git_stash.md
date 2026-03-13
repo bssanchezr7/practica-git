@@ -4,9 +4,7 @@
 
 ### ¿Qué hace `git stash`?
 
-`git stash` guarda tus cambios sin commitear en un **almacén temporal** y
-deja tu Working Directory limpio. Es como meter tus papeles en un cajón
-para despejar la mesa y atender algo urgente.
+`git stash` guarda tus cambios sin commitear en un **almacén temporal** y deja tu Working Directory limpio. Según [Pro Git (Capítulo 7.3)](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning), este comando toma el estado "sucio" de tu directorio de trabajo y lo guarda en una pila de cambios inacabados que puedes volver a aplicar en cualquier momento.
 
 ```
   ANTES de stash:                    DESPUÉS de stash:

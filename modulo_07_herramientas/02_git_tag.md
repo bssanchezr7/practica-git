@@ -4,9 +4,7 @@
 
 ### ¿Qué es un tag?
 
-Un **tag** es una etiqueta permanente que apunta a un commit específico.
-Se usa para marcar versiones o hitos importantes del proyecto: `v1.0`,
-`v2.3.1`, `release-2026-02`.
+Un **tag** es una etiqueta permanente que apunta a un commit específico. Según [Pro Git (Capítulo 2.6)](https://git-scm.com/book/en/v2/Git-Basics-Tagging), se usa para marcar versiones o hitos importantes del proyecto: `v1.0`, `v2.3.1`, `release-2026-02`.
 
 ```
   C1 ── C2 ── C3 ── C4 ── C5 ── C6 ── C7
@@ -44,8 +42,14 @@ completos en Git.
 git tag -a v1.0 -m "Primera versión estable del menú"
 ```
 
-💡 Usa **siempre tags anotados** para releases. Los ligeros son para
-marcas temporales o internas.
+💡 Usa **siempre tags anotados** para releases. Los ligeros son para marcas temporales o internas.
+
+#### 3. Tags firmados (GPG)
+Para proyectos profesionales, puedes firmar tus tags con una clave GPG para asegurar su autenticidad:
+```bash
+git tag -s v1.0 -m "Versión firmada"
+```
+Luego puedes verificarla con `git tag -v v1.0`.
 
 ### Versionado semántico (Semantic Versioning)
 

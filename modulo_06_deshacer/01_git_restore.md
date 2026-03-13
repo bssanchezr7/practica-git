@@ -4,7 +4,7 @@
 
 ### ¿Qué hace `git restore`?
 
-`git restore` deshace cambios en tus archivos. Tiene dos modos principales:
+`git restore` deshace cambios en tus archivos. Según [Pro Git (Capítulo 2.4)](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things#_unstaging_a_staged_file), este comando fue introducido en Git 2.23 para separar las responsabilidades de deshacer cambios de las de cambiar de ramas. Tiene dos modos principales:
 
 1. **Descartar cambios del Working Directory** (volver al estado del último
    commit o del staging).

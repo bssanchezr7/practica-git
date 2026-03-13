@@ -4,9 +4,7 @@
 
 ### ¿Qué es un commit?
 
-Un commit es una **instantánea** (snapshot) de tu proyecto en un momento dado.
-No es un diff ni un parche: es una foto completa de todos los archivos
-preparados en el Staging Area.
+Un commit es una **instantánea** (snapshot) de tu proyecto en un momento dado. Según [Pro Git (Capítulo 2.2)](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_committing_your_changes), Git no guarda parches sino fotos completas de todos los archivos preparados en el Staging Area.
 
 Piensa en los commits como los puntos de guardado de un videojuego. Cada uno
 captura el estado exacto del juego en ese momento, y puedes volver a cualquiera
@@ -49,7 +47,7 @@ Cada commit contiene:
   muestran solo los primeros 7). Git lo genera automáticamente.
 - **Autor y fecha**: Quién y cuándo.
 - **Mensaje**: Una descripción legible de qué cambió y por qué.
-- **Padre**: El commit anterior (así se forma la cadena del historial).
+- **Padre**: El commit anterior (así se forma la cadena del historial). El primer commit del repositorio no tiene padre (se llama **root commit**). Un commit de merge puede tener dos o más padres.
 
 ### Cómo usar `git commit`
 

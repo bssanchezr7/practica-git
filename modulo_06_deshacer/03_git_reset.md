@@ -4,10 +4,7 @@
 
 ### ¿Qué hace `git reset`?
 
-`git reset` mueve el puntero de la rama actual (HEAD) a un commit
-anterior. Dependiendo del modo, también puede modificar el Staging Area
-y el Working Directory. Es la forma más directa de "borrar" commits
-del historial local.
+`git reset` es un comando potente que suele malinterpretarse. Según [Pro Git (Capítulo 7.7): Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified), este comando manipula los tres árboles de Git (HEAD, Index y Working Directory) para deshacer cambios. Es la forma más directa de "borrar" o mover commits del historial local.
 
 ### Los tres modos de reset
 

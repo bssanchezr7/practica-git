@@ -4,10 +4,7 @@
 
 ### ¿Qué es un remoto?
 
-Un **remoto** (remote) es una versión de tu repositorio alojada en otro
-lugar — normalmente un servidor como GitHub, GitLab o Bitbucket. Es la
-forma en que Git permite la colaboración: tú trabajas en tu copia local
-y la sincronizas con el remoto.
+Un **remoto** (remote) es una versión de tu repositorio alojada en otro lugar — normalmente un servidor como GitHub, GitLab o Bitbucket. Según [Pro Git (Capítulo 2.5)](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes), gestionar remotos implica saber cómo añadir, eliminar y gestionar estas conexiones para colaborar con otros.
 
 ```
   Tu máquina                          Servidor (GitHub)

@@ -4,10 +4,7 @@
 
 ### ¿Qué hace `git switch`?
 
-`git switch` mueve el puntero **HEAD** a otra rama. Cuando cambias de rama,
-Git actualiza todos los archivos de tu Working Directory para que coincidan
-con el estado de esa rama. Es como teletransportarte a una realidad paralela
-donde tu proyecto está en un estado diferente.
+`git switch` mueve el puntero **HEAD** a otra rama. Según [Pro Git (Capítulo 3.1)](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_switching_branches), este comando fue introducido en Git 2.23 para proporcionar una alternativa más específica y segura a `git checkout` para cambiar entre ramas.
 
 ### `git switch` vs `git checkout`
 
@@ -65,9 +62,8 @@ git switch -c nueva-rama
 # Volver a la rama anterior (como cd -)
 git switch -
 
-# Equivalentes con checkout (estilo antiguo)
-git checkout nombre-rama         # Cambiar de rama
-git checkout -b nueva-rama       # Crear + cambiar
+# Entrar en estado de "Detached HEAD" (inspeccionar un commit)
+git switch --detach <hash-del-commit>
 ```
 
 ### ⚠️ Importante: Cambios sin commitear
@@ -91,14 +87,17 @@ Este es probablemente el comando que más usarás en tu día a día:
 git switch -c feature/nueva-funcionalidad
 ```
 
-Equivale a:
+Equivale a crear la rama y cambiar a ella en un solo paso. Según la documentación oficial, esto es más seguro que el antiguo `git checkout -b` ya que realiza comprobaciones adicionales para evitar sobrescribir cambios.
 
-```bash
-git branch feature/nueva-funcionalidad
-git switch feature/nueva-funcionalidad
-```
+### ⚠️ El estado "Detached HEAD"
 
-Pero en un solo paso. Crea la rama **y** te cambia a ella inmediatamente.
+Si usas `git switch --detach <commit>` o `git switch <tag>`, entras en un estado llamado **Detached HEAD** (HEAD desprendido).
+
+- **¿Qué es?**: HEAD apunta directamente a un commit, no a una rama.
+- **Riesgo**: Si haces commits en este estado, no pertenecen a ninguna rama y podrían perderse ("quedar huérfanos") al cambiar de nuevo a una rama.
+- **Cómo salir**: 
+    - Para descartar: `git switch main`.
+    - Para guardar lo que hiciste: `git switch -c nueva-rama`.
 
 ---
 

@@ -279,7 +279,7 @@ Merge made by the 'ort' strategy.
  1 file changed, 6 insertions(+)
 ```
 
-💡 "ort strategy" es el algoritmo de merge por defecto de Git moderno.
+💡 **Estrategia ORT**: "Ostensibly Recursive's Twin" es la estrategia por defecto desde Git 2.34. Diseñada para ser mucho más rápida y manejar mejor las detecciones de renombres que la antigua estrategia `recursive`. En repositorios grandes, la mejora de rendimiento es masiva.
 
 ---
 

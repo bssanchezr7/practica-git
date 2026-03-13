@@ -4,9 +4,7 @@
 
 ### El concepto más importante de Git
 
-Si solo pudieras aprender UNA cosa de Git, debería ser esto: tus archivos
-existen en **tres espacios** y se mueven entre ellos con comandos específicos.
-Todo lo demás en Git gira alrededor de esta idea.
+Si solo pudieras aprender UNA cosa de Git, debería ser esto: tus archivos existen en **tres espacios** y se mueven entre ellos con comandos específicos. Según [Pro Git (Capítulo 1.3)](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#_the_three_states), comprender estas secciones es vital para dominar Git. Todo lo demás gira alrededor de esta idea.
 
 ### Los tres espacios
 

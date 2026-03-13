@@ -4,12 +4,9 @@
 
 ### ¿Qué es una rama?
 
-Una rama es simplemente un **puntero móvil a un commit**. Nada más. No es una
-copia de tu proyecto, no es una carpeta separada — es una etiqueta liviana que
-dice "estoy en este commit".
+Una rama es simplemente un **puntero móvil a un commit**. Nada más. Según [Pro Git (Capítulo 3.1)](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), Git no copia archivos al crear una rama; simplemente crea un archivo de 41 bytes que contiene el hash del commit al que apunta. Esto las hace increíblemente rápidas y livianas.
 
-Cuando creas una rama nueva, Git crea un nuevo puntero. Cuando haces un commit
-en esa rama, el puntero avanza al nuevo commit. Eso es todo.
+Cuando creas una rama nueva, Git crea un nuevo puntero. Cuando haces un commit en esa rama, el puntero avanza automáticamente al nuevo commit.
 
 ### ¿Por qué existen las ramas?
 
@@ -46,10 +43,8 @@ El menú principal nunca se tocó.
   └──────────────────────────────────────────────────────┘
 ```
 
-- **main** (o master): La rama principal. Se crea automáticamente con el
-  primer commit.
-- **HEAD**: Un puntero especial que indica "en qué rama estás ahora".
-  Cuando haces un commit, la rama a la que apunta HEAD avanza.
+- **main** (o master): La rama principal por defecto.
+- **HEAD**: Un puntero especial que indica "en qué rama estás ahora". Según la documentación oficial, HEAD suele apuntar a la rama actual, la cual a su vez apunta al último commit de esa línea de desarrollo.
 
 ### Ramas son baratas
 

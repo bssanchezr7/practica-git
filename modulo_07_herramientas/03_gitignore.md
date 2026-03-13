@@ -4,9 +4,7 @@
 
 ### ¿Qué es `.gitignore`?
 
-`.gitignore` es un archivo de texto que le dice a Git **qué archivos o
-carpetas debe ignorar**. Los archivos listados en `.gitignore` no aparecen
-en `git status`, no se añaden con `git add .`, y nunca entran en un commit.
+`.gitignore` es un archivo de texto que le dice a Git **qué archivos o carpetas debe ignorar**. Según la [documentación oficial de gitignore](https://git-scm.com/docs/gitignore) y [Pro Git (Capítulo 2.2)](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring_files), los archivos que coinciden con los patrones en este archivo no serán rastreados por Git. Esto evita que archivos temporales, configuraciones locales o dependencias pesadas ensucien el historial.
 
 ### ¿Por qué ignorar archivos?
 

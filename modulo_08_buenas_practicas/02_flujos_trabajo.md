@@ -4,9 +4,7 @@
 
 ### ¿Qué es un flujo de trabajo (workflow)?
 
-Un flujo de trabajo define **cómo un equipo usa las ramas** para organizar
-el desarrollo. No hay uno perfecto — depende del tamaño del equipo y del
-tipo de proyecto.
+Un flujo de trabajo define **cómo un equipo usa las ramas** para organizar el desarrollo. Según [Pro Git (Capítulo 5.1)](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), no hay uno perfecto — depende del tamaño del equipo y de la confianza entre sus miembros.
 
 ### Los tres flujos más populares
 

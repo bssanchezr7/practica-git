@@ -4,9 +4,7 @@
 
 ### ¿Qué hace `git status`?
 
-`git status` es tu brújula en Git. Te dice **exactamente** en qué estado se
-encuentra cada archivo de tu proyecto. Es el comando que más vas a usar — antes
-de añadir, antes de hacer commit, antes de casi cualquier cosa.
+`git status` es tu brújula en Git. Te dice **exactamente** en qué estado se encuentra cada archivo de tu proyecto. Según [Pro Git (Capítulo 2.2)](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_checking_status), es la herramienta principal para determinar qué archivos están en qué estado.
 
 ### Los tres espacios de Git
 
@@ -36,8 +34,9 @@ viven tus archivos:
    los cambios que quieres incluir en tu próximo commit. Piensa en ella como
    una "bandeja de salida".
 
-3. **Repository** (Repositorio): La base de datos de Git (dentro de `.git/`)
-   que guarda todo el historial de tu proyecto.
+3. **Repository** (Repositorio): La base de datos de Git (dentro de `.git/`) que guarda todo el historial de tu proyecto.
+
+En Git, los archivos se dividen principalmente en dos categorías: **Tracked** (rastreados), que son aquellos que Git ya conoce y que estaban en el último commit; y **Untracked** (sin seguimiento), que son archivos nuevos en tu directorio de trabajo que no estaban en tu último commit ni están en tu área de preparación.
 
 ### Los estados de un archivo
 

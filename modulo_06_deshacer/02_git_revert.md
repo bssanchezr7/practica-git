@@ -4,9 +4,7 @@
 
 ### ¿Qué hace `git revert`?
 
-`git revert` crea un **nuevo commit** que deshace los cambios de un commit
-anterior. No borra nada del historial — añade un commit que "invierte"
-los cambios.
+`git revert` crea un **nuevo commit** que deshace los cambios de un commit anterior. Según [Pro Git (Capítulo 2.4)](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things#_reverting_commits), esta es la forma más segura de deshacer cambios en ramas públicas, ya que no borra nada del historial — añade un commit que "invierte" los cambios.
 
 ```
   ANTES:

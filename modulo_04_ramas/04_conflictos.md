@@ -4,11 +4,7 @@
 
 ### ¿Qué es un conflicto?
 
-Un conflicto ocurre cuando dos ramas modifican las **mismas líneas** del
-**mismo archivo** de formas diferentes. Git es muy bueno combinando cambios
-automáticamente, pero cuando dos personas (o dos ramas) tocan exactamente
-el mismo lugar, Git no puede decidir qué versión es la correcta y te pide
-ayuda.
+Un conflicto ocurre cuando dos ramas modifican las **mismas líneas** del **mismo archivo** de formas diferentes. Según [Pro Git (Capítulo 3.2)](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts), Git es capaz de resolver la mayoría de las mezclas automáticamente, pero requiere intervención humana cuando los cambios se solapan.
 
 ### ¿Cuándo NO hay conflicto?
 
@@ -119,8 +115,12 @@ herramientas que facilitan la tarea:
 - **`git mergetool`**: Abre una herramienta visual de comparación (vimdiff,
   meld, kdiff3, etc.).
 
-Para este curso, lo haremos a mano con un editor de texto para que
-entiendas exactamente qué ocurre.
+Para este curso, lo haremos a mano con un editor de texto para que entiendas exactamente qué ocurre.
+
+💡 **Recomendación Pro**: Configura el estilo de conflicto `diff3` para ver también el contenido del ancestro común (la base), lo cual ayuda mucho a entender qué cambió en cada rama:
+```bash
+git config --global merge.conflictstyle diff3
+```
 
 ---
 

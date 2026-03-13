@@ -10,7 +10,7 @@ tu trabajo.
 
 ### Los tres niveles de configuración
 
-Git tiene tres niveles de configuración, cada uno con diferente alcance:
+Git tiene tres niveles de configuración, cada uno con diferente alcance. Según la [documentación oficial de git-config](https://git-scm.com/docs/git-config#_configuration_file) y [Pro Git (Capítulo 1.6)](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup), estos archivos se leen en orden de jerarquía:
 
 ```
   ┌──────────────────────────────────────────────────────────┐
@@ -30,11 +30,12 @@ Git tiene tres niveles de configuración, cada uno con diferente alcance:
   └──────────────────────────────────────────────────────────┘
 ```
 
-| Nivel | Flag | Archivo | Alcance |
+| Nivel | Flag | Archivo (típico) | Alcance |
 |-------|------|---------|---------|
 | System | `--system` | `/etc/gitconfig` | Toda la máquina |
 | Global | `--global` | `~/.gitconfig` | Tu usuario |
 | Local | `--local` | `.git/config` | Solo este repo |
+| Worktree| `--worktree` | `.git/config.worktree` | Específico del worktree |
 
 Lo más común es usar `--global` (configuras una vez y aplica a todo).
 

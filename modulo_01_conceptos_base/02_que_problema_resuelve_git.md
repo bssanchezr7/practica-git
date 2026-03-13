@@ -69,10 +69,12 @@ Git es una **máquina del tiempo** que te permite investigar el pasado.
 
 ### Git en números
 
-- Creado por **Linus Torvalds** en 2005 (el creador de Linux).
+- Creado por **Linus Torvalds** en 2005 (el creador de Linux), tras la ruptura de la relación con BitKeeper. Según [Pro Git (Capítulo 1.2)](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git), los objetivos originales incluían velocidad, diseño sencillo y soporte para desarrollo no lineal.
 - Usado por el **95%+** de los equipos de desarrollo profesionales.
 - **GitHub** aloja más de 200 millones de repositorios.
 - Se usa para código, documentación, libros, diseños, datos y más.
+
+Para una definición técnica formal, puedes consultar [Pro Git (Capítulo 1.3): What is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
 
 ### No solo para programadores
 

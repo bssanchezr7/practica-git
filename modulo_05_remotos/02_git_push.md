@@ -4,9 +4,7 @@
 
 ### ¿Qué hace `git push`?
 
-`git push` envía tus commits locales al repositorio remoto. Es como
-publicar tu trabajo: lo que solo existía en tu máquina ahora está
-disponible para otros (o guardado en el servidor como respaldo).
+`git push` envía tus commits locales al repositorio remoto. Según [Pro Git (Capítulo 2.5)](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_to_your_remotes), este es el comando que compartes tu proyecto con el mundo al subir tus datos al servidor compartido.
 
 ```
   Repo Local                          Repo Remoto (origin)
@@ -82,9 +80,8 @@ resuélvelos si hay conflictos, y luego intenta `git push` de nuevo.
 
 ### ⚠️ Importante
 
-- **Nunca uses `git push --force`** a menos que sepas exactamente lo que
-  haces. Sobrescribe el historial remoto y puede borrar el trabajo de
-  otros.
+- **Nunca uses `git push --force`** a menos que sepas exactamente lo que haces. Sobrescribe el historial remoto y puede borrar el trabajo de otros.
+- **Alternativa segura**: Usa `git push --force-with-lease`. Solo fuerza el push si nadie más ha subido cambios al remoto desde tu último fetch. Es la forma profesional de reescribir historial remoto de forma segura.
 - `git push` solo envía **commits**. Los cambios en tu Working Directory
   o Staging Area no se envían.
 - Si no has hecho commit, no hay nada que pushear.

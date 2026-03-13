@@ -28,9 +28,7 @@ manual**. Y tiene consecuencias reales:
 
 ### La solución: sistemas de control de versiones (VCS)
 
-Un **sistema de control de versiones** (VCS, por sus siglas en inglés) es
-una herramienta que registra los cambios en tus archivos a lo largo del
-tiempo. Te permite:
+Un **sistema de control de versiones** (VCS, por sus siglas en inglés) es una herramienta que registra los cambios en tus archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Según el libro oficial [Pro Git (Capítulo 1.1)](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), esta capacidad es fundamental para cualquier proyecto de software. Te permite:
 
 | Capacidad | Sin VCS | Con VCS |
 |-----------|---------|---------|
@@ -58,7 +56,9 @@ El más primitivo. Copias de carpetas en tu propio disco.
 
 **Problema**: Si tu disco muere, lo pierdes todo. No permite colaborar.
 
-#### 2. Centralizado (CVS, SVN)
+#### 2. Centralizado (CVCS - Centralized Version Control Systems)
+
+Un servidor central guarda el historial. Todos se conectan a él (ejemplos: CVS, Subversion, Perforce).
 
 Un servidor central guarda el historial. Todos se conectan a él.
 
@@ -75,10 +75,9 @@ Un servidor central guarda el historial. Todos se conectan a él.
 **Problema**: Si el servidor cae, nadie puede trabajar. Un solo punto de
 fallo.
 
-#### 3. Distribuido (Git, Mercurial)
+#### 3. Distribuido (DVCS - Distributed Version Control Systems)
 
-Cada persona tiene una **copia completa** del historial. No hay un punto
-único de fallo.
+Cada persona tiene una **copia completa** del historial (ejemplos: Git, Mercurial, Bazaar). No hay un punto único de fallo.
 
 ```
   ┌──────────────┐     ┌──────────────┐     ┌──────────────┐

@@ -4,9 +4,7 @@
 
 ### ¿Por qué importan los mensajes de commit?
 
-Los mensajes de commit son la **documentación viva** de tu proyecto. Cuando
-algo falla y necesitas entender qué pasó, el historial de commits es lo
-primero que revisas.
+Los mensajes de commit son la **documentación viva** de tu proyecto. Según [Pro Git (Capítulo 5.2)](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines), un buen historial permite que otros desarrolladores (y tú mismo en el futuro) entiendan el contexto y la intención de cada cambio.
 
 Un buen historial:
 
@@ -90,7 +88,7 @@ El código dice **qué** cambió. El mensaje de commit dice **por qué**.
 
 ### Prefijos de tipo (Conventional Commits)
 
-Una convención popular es añadir un prefijo que clasifique el cambio:
+Una convención popular es añadir un prefijo que clasifique el cambio, siguiendo la especificación oficial de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
 
 | Prefijo | Uso | Ejemplo |
 |---------|-----|---------|
